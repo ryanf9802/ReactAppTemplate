@@ -1,3 +1,12 @@
 {
-  "presets": ["@babel/preset-env", "@babel/preset-react"]
+  // set of plugins to support language features
+  "presets": [
+      "@babel/preset-env", //compiling ES2015+ syntax
+      "@babel/preset-react" //for react
+  ],
+  
+  // plugins that handle code transformation at runtime
+  "plugins": [
+      "@babel/plugin-transform-runtime"
+  ]
 }
