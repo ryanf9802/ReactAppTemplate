@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack .",
-    "start": "webpack-dev-server ."
+    "dev": "webpack-dev-server ."
   },
   "dependencies": {
     "react": "^18.3.1",
