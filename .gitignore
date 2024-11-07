@@ -1,2 +1,8 @@
+# Front End
 node_modules/
 main.js
+
+# Back End
+.venv/
+__pycache__/
+logs/

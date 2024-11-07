@@ -1,0 +1,4 @@
+/* Declare global styles here based on index.css variables */
+body {
+  font: 16px var(--primary-font);
+}
